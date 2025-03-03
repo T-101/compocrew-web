@@ -13,7 +13,7 @@
     <EmailObfuscator email={['hakemus', ['compocrew', 'fi'].join('.')].join('@')} track="Application click"/>
 </p>
 
-<p>Ollakseen oikeutettu avustukseen, tulee tapahtuman olla Suomessa ja olla voittoa tavoittelematon
+<p>Ollakseen oikeutettu avustukseen, tulee tapahtuman olla Suomessa ja olla voittoa tavoittelematon.
 </p>
 
 <div>Hakemuksessa tulee vastata seuraaviin kysymyksiin:
@@ -21,7 +21,7 @@
         <li>Mille partyille tukea haetaan</li>
         <li>Milloin ja missä partyt ovat</li>
         <li>Partyjen budjetti, odotettu kävijämäärä, kotisivut</li>
-        <li>Mihin tarkoitukseen tukea haetaan? (Tila, Palkinnot, Laitteisto, muu)</li>
+        <li>Mihin tarkoitukseen tukea haetaan ja kuinka paljon? (Tila, palkinnot, laitteisto, muu)</li>
         <li>Peruuntuvatko partyt mikäli sponsorointia ei saada</li>
         <li>Ovat partyt saaneet aikaisemmin sponsorointia. Jos on, niin millaista</li>
         <li>Ovatko partyt avoimet vai invite only</li>
