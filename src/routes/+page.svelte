@@ -7,7 +7,3 @@
 
 <p>Yhdistyksellä on tietokonetaidekilpailujen järjestämisetä varten nykyaikainen tietokonelaitteisto,
     videokaappauslaittestoa sekä tarkoitusta varten kehitetty tietokonetaidekilpailujen hallintatyökalu Partyman.</p>
-
-
-<p>Tarjoamme myös tukea Suomessa järjestettäviin tietokonetaidetapahtumiin osallistumiseen, jos osallistuminen on
-    sinulle esimerkiksi matkakustannusten tai pääsymaksujen takia erityisen vaikeaa.</p>
