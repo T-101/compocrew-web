@@ -6,4 +6,4 @@
     rahoitusta tapahtumien järjestämiseen.</p>
 
 <p>Yhdistyksellä on tietokonetaidekilpailujen järjestämisetä varten nykyaikainen tietokonelaitteisto,
-    videokaappauslaittestoa sekä tarkoitusta varten kehitetty tietokonetaidekilpailujen hallintatyökalu Partyman.</p>
+    videokaappauslaitteistoa sekä tarkoitusta varten kehitetty tietokonetaidekilpailujen hallintatyökalu Partyman.</p>
