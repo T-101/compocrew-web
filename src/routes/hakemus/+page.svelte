@@ -21,9 +21,9 @@
         <li>Mille partyille tukea haetaan</li>
         <li>Milloin ja missä partyt ovat</li>
         <li>Partyjen budjetti, odotettu kävijämäärä, kotisivut</li>
-        <li>Mihin tarkoitukseen tukea haetaan ja kuinka paljon? (Tila, palkinnot, laitteisto, muu)</li>
-        <li>Peruuntuvatko partyt mikäli sponsorointia ei saada</li>
-        <li>Ovat partyt saaneet aikaisemmin sponsorointia. Jos on, niin millaista</li>
+        <li>Mihin tarkoitukseen tukea haetaan ja kuinka paljon (Tila, palkinnot, laitteisto, muu)</li>
+        <li>Peruuntuvatko partyt mikäli tukea ei saada</li>
+        <li>Ovatko partyt saaneet aikaisemmin tukea. Jos on, niin millaista</li>
         <li>Ovatko partyt avoimet vai invite only</li>
         <li>Suunnitellut compot</li>
         <li>Vapaamuotoinen kuvaus partyista</li>
