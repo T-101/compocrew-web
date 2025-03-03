@@ -1,0 +1,15 @@
+
+.navbar-logo {
+    height: clamp(1rem, 5.5vw, 2rem);
+    filter: invert(1);
+}
+
+/* Center the navbar brand on small screens */
+@media (max-width: 768px) {
+    .navbar-brand {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 24px;
+    }
+}
