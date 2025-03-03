@@ -10,7 +10,7 @@
 <p>
     Meiltä on tulossa hieman virallisempi lomake tuen hakemiseen.
     Toistaiseksi voitte lähettää vapaamuotoisen hakemuksen osoitteeseen
-    <EmailObfuscator email="hakemus@compocrew.fi" track="Application click"/>
+    <EmailObfuscator email={['hakemus', ['compocrew', 'fi'].join('.')].join('@')} track="Application click"/>
 </p>
 
 <p>Ollakseen oikeutettu avustukseen, tulee tapahtuman olla Suomessa ja olla voittoa tavoittelematon

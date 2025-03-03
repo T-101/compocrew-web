@@ -24,7 +24,7 @@
     </p>
     <h5 class="mb-4">Hallitus</h5>
     <p>Sähköposti:
-        <EmailObfuscator email="hallitus@compocrew.fi" track="Contact click"/>
+        <EmailObfuscator email={['hallitus', ['compocrew', 'fi'].join('.')].join('@')} track="Contact click"/>
     <dl>
         <dt>Puheenjohtaja</dt>
         <dd>
