@@ -1,7 +1,11 @@
-
-.navbar-logo {
+[data-bs-theme="light"] .navbar-logo {
     height: clamp(1rem, 5.5vw, 2rem);
     filter: invert(1);
+}
+
+[data-bs-theme="dark"] .navbar-logo {
+    height: clamp(1rem, 5.5vw, 2rem);
+    filter: invert(0);
 }
 
 /* Center the navbar brand on small screens */
@@ -12,4 +16,37 @@
         transform: translateX(-50%);
         top: 24px;
     }
+}
+
+.icon {
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+    cursor: pointer;
+}
+
+/* Icons from Tabler Icons - https://tabler.io/icons */
+
+.sun {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-size: contain;
+    background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath stroke='none' d='M0 0h24v24H0z' fill='none'/%3E%3Cpath d='M12 12m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0'/%3E%3Cpath d='M3 12h1m8 -9v1m8 8h1m-9 8v1m-6.4 -15.4l.7 .7m12.1 -.7l-.7 .7m0 11.4l.7 .7m-12.1 -.7l-.7 .7'/%3E%3C/svg%3E") no-repeat;
+}
+
+.moon {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-size: contain;
+    background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='grey' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath stroke='none' d='M0 0h24v24H0z' fill='none'/%3E%3Cpath d='M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z'/%3E%3C/svg%3E") no-repeat;
+}
+
+.sun-moon {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-size: contain;
+    background: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='grey' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' class='icon icon-tabler icons-tabler-outline icon-tabler-sun-moon'><path stroke='none' d='M0 0h24v24H0z' fill='none'/><path d='M9.173 14.83a4 4 0 1 1 5.657 -5.657' /><path d='M11.294 12.707l.174 .247a7.5 7.5 0 0 0 8.845 2.492a9 9 0 0 1 -14.671 2.914' /><path d='M3 12h1' /><path d='M12 3v1' /><path d='M5.6 5.6l.7 .7' /><path d='M3 21l18 -18' /></svg>") no-repeat;
 }

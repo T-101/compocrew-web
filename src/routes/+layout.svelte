@@ -1,19 +1,20 @@
 <script>
-    import { page } from '$app/state';
+    import {page} from '$app/state';
+
     let {children} = $props();
     const active = (path) => page.url.pathname === path ? 'active' : '';
 </script>
 
-<nav class="navbar navbar-expand-md bg-body-tertiary sticky-top mb-4">
+<nav id="navbar" class="navbar navbar-expand-md bg-body-tertiary sticky-top mb-4">
     <div class="container-fluid">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar"
-                aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler"
+                aria-controls="navbar-toggler" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <a class="navbar-brand" href="/">
             <img src="/img/compocrew.webp" class="navbar-logo" alt="CompoCrew logo">
         </a>
-        <div class="collapse navbar-collapse" id="navbar">
+        <div class="collapse navbar-collapse" id="navbar-toggler">
             <ul class="navbar-nav me-auto">
                 <li class="nav-item">
                     <a class="nav-link {active('/')}" href="/">Etusivu</a>
@@ -29,6 +30,7 @@
                 </li>
             </ul>
         </div>
+        <span id="theme" class="icon"></span>
     </div>
 </nav>
 <div class="container mb-4">
