@@ -22,27 +22,29 @@
         FI84 5780 3820 1848 27<br>
         OKOYFIHH
     </p>
-    <h5 class="mb-4">Hallitus</h5>
+    <h5 class="my-4">Hallitus</h5>
     <p>Sähköposti:
         <EmailObfuscator email={['hallitus', ['compocrew', 'fi'].join('.')].join('@')} track="Contact click"/>
-    <dl>
-        <dt>Puheenjohtaja</dt>
-        <dd>
+    <dl class="row">
+        <dt class="col-12 col-sm-4 col-lg-2 me-lg-3">Puheenjohtaja</dt>
+        <dd class="col-12 col-sm-8 col-lg-9 mb-4">
             <NameObfuscator name={PUBLIC_CHAIRMAN}/>
         </dd>
-        <dt>Varapuheenjohtaja</dt>
-        <dd>
+        <dt class="col-12 col-sm-4 col-lg-2 me-lg-3">Varapuheenjohtaja</dt>
+        <dd class="col-12 col-sm-8 col-lg-9 mb-4">
             <NameObfuscator name={PUBLIC_VICE_CHAIRMAN}/>
         </dd>
-        <dt>Rahastonhoitaja</dt>
-        <dd>
+        <dt class="col-12 col-sm-4 col-lg-2 me-lg-3">Rahastonhoitaja</dt>
+        <dd class="col-12 col-sm-8 col-lg-9 mb-4">
             <NameObfuscator name={PUBLIC_TREASURER}/>
         </dd>
-        <dt>Hallituksen jäsen</dt>
-        {#each PUBLIC_BOARD_MEMBERS.split(",") as name}
-            <dd>
-                <NameObfuscator name={name.trim()}/>
-            </dd>
-        {/each}
+        <dt class="col-12 col-sm-4 col-lg-2 me-lg-3">Hallituksen jäsen</dt>
+        <div class="col-12 col-sm-8 col-lg-9 mb-4">
+            {#each PUBLIC_BOARD_MEMBERS.split(",") as name}
+                <dd>
+                    <NameObfuscator name={name.trim()}/>
+                </dd>
+            {/each}
+        </div>
     </dl>
 </div>
