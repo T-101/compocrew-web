@@ -5,7 +5,7 @@
 </script>
 
 <svelte:head>
-    <title>CompoCrew Ry | Tietoa</title>
+    <title>CompoCrew ry | Tietoa</title>
 </svelte:head>
 
 <h2 class="mb-4">CompoCrew ry</h2>
@@ -13,7 +13,7 @@
 <div>
     <h5 class="mb-4">Laskutustiedot</h5>
     <p>
-        Compocrew Ry<br>
+        CompoCrew ry<br>
         Leinelän puistotie 2<br>
         01360 Vantaa
     </p>
