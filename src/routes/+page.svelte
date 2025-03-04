@@ -5,5 +5,5 @@
     tukemaan Suomalaisia demoscene-harrastajia ja yhdistyksiä tarjoamalla tietotaitoa, tekniikkaa sekä perustellusti
     rahoitusta tapahtumien järjestämiseen.</p>
 
-<p>Yhdistyksellä on tietokonetaidekilpailujen järjestämisetä varten nykyaikainen tietokonelaitteisto,
+<p>Yhdistyksellä on tietokonetaidekilpailujen järjestämistä varten nykyaikainen tietokonelaitteisto,
     videokaappauslaitteistoa sekä tarkoitusta varten kehitetty tietokonetaidekilpailujen hallintatyökalu Partyman.</p>
