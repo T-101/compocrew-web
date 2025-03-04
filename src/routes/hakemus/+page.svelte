@@ -3,7 +3,7 @@
 </script>
 
 <svelte:head>
-    <title>CompoCrew Ry | Hakemus</title>
+    <title>CompoCrew ry | Hakemus</title>
 </svelte:head>
 
 <h2 class="mb-4">Tuen hakeminen</h2>
