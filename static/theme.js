@@ -20,20 +20,20 @@ document.addEventListener("DOMContentLoaded", function () {
         switch (theme) {
             case "light":
                 document.documentElement.setAttribute("data-bs-theme", theme)
-                navbar.classList.remove("navbar-dark")
+                navbar.setAttribute("data-bs-theme", theme)
                 themeIcon.classList.add("sun")
                 themeIcon.classList.remove("sun-moon")
                 break
             case "dark":
                 document.documentElement.setAttribute("data-bs-theme", theme)
-                navbar.classList.add("navbar-dark")
+                navbar.setAttribute("data-bs-theme", theme)
                 themeIcon.classList.add("moon")
                 themeIcon.classList.remove("sun")
                 break
             case "auto":
                 const autoTheme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'
                 document.documentElement.setAttribute("data-bs-theme", autoTheme)
-                navbar.classList.toggle("navbar-dark", autoTheme === 'dark')
+                navbar.setAttribute("data-bs-theme", autoTheme)
                 themeIcon.classList.add("sun-moon")
                 themeIcon.classList.remove("moon")
                 break
