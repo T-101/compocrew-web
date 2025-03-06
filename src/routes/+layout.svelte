@@ -5,7 +5,7 @@
     const active = (path) => page.url.pathname === path ? 'active' : '';
 </script>
 
-<nav id="navbar" class="navbar navbar-expand-md bg-body-tertiary sticky-top mb-4">
+<nav id="navbar" class="navbar navbar-expand-md bg-body-tertiary sticky-top mb-4" data-bs-theme="light">
     <div class="container-fluid">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler"
                 aria-controls="navbar-toggler" aria-expanded="false" aria-label="Toggle navigation">
@@ -16,17 +16,21 @@
         </a>
         <div class="collapse navbar-collapse" id="navbar-toggler">
             <ul class="navbar-nav me-auto">
-                <li class="nav-item">
+                <li class="nav-item me-3">
                     <a class="nav-link {active('/')}" href="/">Etusivu</a>
                     {#if active('/')} <span class="visually-hidden">(aktiivinen)</span> {/if}
                 </li>
-                <li class="nav-item">
+                <li class="nav-item me-3">
                     <a class="nav-link {active('/hakemus/')}" href="/hakemus">Hakemus</a>
                     {#if active('/hakemus/')} <span class="visually-hidden">(aktiivinen)</span> {/if}
                 </li>
-                <li class="nav-item">
+                <li class="nav-item me-3">
                     <a class="nav-link {active('/tietoa/')}" href="/tietoa">Tietoa</a>
                     {#if active('/tietoa/')} <span class="visually-hidden">(aktiivinen)</span> {/if}
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link {active('/english/')}" href="/english">In English</a>
+                    {#if active('/english/')} <span class="visually-hidden">(aktiivinen)</span> {/if}
                 </li>
             </ul>
         </div>
