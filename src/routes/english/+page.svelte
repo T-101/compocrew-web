@@ -7,7 +7,7 @@
 </svelte:head>
 
 <h2 class="mb-4">CompoCrew ry</h2>
-<p>CompoCrew ry is a registered nonprofit association in Finland, that grants aid to Finnish demoscene parties.</p>
+<p>CompoCrew ry is a registered non-profit association in Finland, that grants aid to Finnish demoscene parties.</p>
 
 <p>CompoCrew ry was founded in 2021 to promote Finnish computer art culture, Demoscene. The association offers support
     for Finnish Demoscene-enthusiasts and organizations by offering knowledge, hardware and granting financial aid for
