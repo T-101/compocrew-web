@@ -1,7 +1,7 @@
 <script>
     import EmailObfuscator from "$lib/components/EmailObfuscator.svelte";
     import NameObfuscator from "$lib/components/NameObfuscator.svelte";
-    import {PUBLIC_CHAIRMAN, PUBLIC_VICE_CHAIRMAN, PUBLIC_TREASURER, PUBLIC_BOARD_MEMBERS} from "$env/static/public";
+    import {PUBLIC_CHAIRMAN, PUBLIC_VICE_CHAIRMAN, PUBLIC_TREASURER, PUBLIC_BOARD_MEMBERS, PUBLIC_BOARD_PERSONNEL} from "$env/static/public";
 </script>
 
 <svelte:head>
@@ -46,5 +46,9 @@
                 </dd>
             {/each}
         </div>
+        <dt class="col-12 col-sm-4 col-lg-2 me-lg-3">Toimihenkilöt</dt>
+        <dd class="col-12 col-sm-8 col-lg-9 mb-4">
+            <NameObfuscator name={PUBLIC_BOARD_PERSONNEL}/>
+        </dd>
     </dl>
 </div>
