@@ -1,16 +1,17 @@
-<script>
-    import EmailObfuscator from "$lib/components/EmailObfuscator.svelte";
-</script>
-
 <svelte:head>
     <title>CompoCrew ry | Hakemus</title>
 </svelte:head>
 
 <h2 class="mb-4">Tuen hakeminen</h2>
 <p>
-    Meiltä on tulossa hieman virallisempi lomake tuen hakemiseen.
-    Toistaiseksi voitte lähettää vapaamuotoisen hakemuksen osoitteeseen
-    <EmailObfuscator email={['hakemus', ['compocrew', 'fi'].join('.')].join('@')} track="Application click"/>
+    Voitte anoa tukea <a
+        href="https://docs.google.com/forms/d/e/1FAIpQLSe9FlkoLJK5PypUPFBdM0DdzSz6jVSIqITVDA_5t_soZ4-u0g/viewform?usp=header">
+    tällä hakemuksella.</a>
+</p>
+
+<p>
+    Hakemukset käsitellään yhdistyksen hallituksen toimesta ja päätökset
+    tuen myöntämisestä tehdään yhdistyksen hallituksen kokouksissa.
 </p>
 
 <p>Ollakseen oikeutettu avustukseen, tulee tapahtuman olla Suomessa ja olla voittoa tavoittelematon.
