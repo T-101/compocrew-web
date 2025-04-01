@@ -1,12 +1,5 @@
 <script>
-    import {onMount} from 'svelte'
-
-    onMount(() => {
-        const link = document.getElementById('application-link')
-        link.addEventListener('click', () => {
-            umami.track('Application click')
-        })
-    })
+    import TrackedLink from "$lib/components/TrackedLink.svelte"
 </script>
 
 <svelte:head>
@@ -16,9 +9,10 @@
 <h2 class="mb-4">Tuen hakeminen</h2>
 <p>
     Voitte anoa tukea
-    <a id="application-link"
-       href="https://docs.google.com/forms/d/e/1FAIpQLSe9FlkoLJK5PypUPFBdM0DdzSz6jVSIqITVDA_5t_soZ4-u0g/viewform?usp=header">
-        tällä hakemuksella.</a>
+    <TrackedLink
+            href="https://docs.google.com/forms/d/e/1FAIpQLSe9FlkoLJK5PypUPFBdM0DdzSz6jVSIqITVDA_5t_soZ4-u0g/viewform?usp=header"
+            track="Application click" class="anaclass">tällä hakemuksella.
+    </TrackedLink>
 </p>
 
 <p>
