@@ -17,8 +17,8 @@
     ja audiovisuaalista taidetta. Demoscene on saanut alkunsa pelien ohjelmoinnista ja graafisesta suunnittelusta ja
     on myös yksi ensimmäisistä tietokoneiden ympärille syntyneistä kulttuureista.</p>
 
-<p> Tapahtumien järjestäminen ei kovin usein ole halpaa hommaa, eikä varsinkaan nuoremmilla tekijöillä ole
-    mahdollisuuksia helposti lähteä järjestämään.</p>
+<p> Tapahtumien järjestäminen ei kovin usein ole halpaa eikä helppoa hommaa, eikä varsinkaan nuoremmilla tekijöillä
+    ole mahdollisuuksia helposti lähteä järjestämään.</p>
 
 <p>Miten juuri te pystytte tukemaan yhdistyksen toimintaa ja täten demosceneä kulttuurina?</p>
 
