@@ -25,6 +25,10 @@
                     {#if active('/hakemus/')} <span class="visually-hidden">(aktiivinen)</span> {/if}
                 </li>
                 <li class="nav-item me-3">
+                    <a class="nav-link {active('/tukeminen/')}" href="/tukeminen">Tukeminen</a>
+                    {#if active('/tukeminen/')} <span class="visually-hidden">(aktiivinen)</span> {/if}
+                </li>
+                <li class="nav-item me-3">
                     <a class="nav-link {active('/tietoa/')}" href="/tietoa">Tietoa</a>
                     {#if active('/tietoa/')} <span class="visually-hidden">(aktiivinen)</span> {/if}
                 </li>

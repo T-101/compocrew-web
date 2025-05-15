@@ -1,12 +1,28 @@
-[data-bs-theme="light"] .navbar-logo {
+.navbar-logo {
     height: clamp(1rem, 5.5vw, 2rem);
+}
+
+[data-bs-theme="light"] .navbar-logo {
     filter: invert(1);
 }
 
 [data-bs-theme="dark"] .navbar-logo {
-    height: clamp(1rem, 5.5vw, 2rem);
     filter: invert(0);
 }
+
+.sponsor-logo {
+    height: clamp(2rem, 5.5vw, 4rem);
+    filter: invert(0.5);
+}
+
+[data-bs-theme="light"] .sponsor-logo:hover {
+    filter: invert(0);
+}
+
+[data-bs-theme="dark"] .sponsor-logo:hover {
+    filter: invert(1);
+}
+
 
 /* Center the navbar brand on small screens */
 @media (max-width: 768px) {
