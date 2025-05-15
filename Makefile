@@ -8,4 +8,4 @@ dev:
 	@docker run -it -v .:/app -p 127.0.0.1:5173:5173 --rm compocrew npm run dev -- --host 0.0.0.0
 
 up:
-	@docker run -it -v .:/app --rm compocrew npm run build
+	@docker run -v .:/app --rm compocrew npm run build
