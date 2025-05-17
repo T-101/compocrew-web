@@ -1,8 +1,20 @@
 <script>
     import {page} from '$app/state';
+    import {onMount} from 'svelte';
 
     let {children} = $props();
     const active = (path) => page.url.pathname === path ? 'active' : '';
+
+    onMount(() => {
+        const navbarCollapseEl = document.getElementById('navbar-toggler')
+
+        navbarCollapseEl.querySelectorAll('.nav-link').forEach(link => {
+            link.addEventListener('click', () => {
+                bootstrap.Collapse.getInstance(navbarCollapseEl).hide()
+            })
+        })
+    })
+
 </script>
 
 <nav id="navbar" class="navbar navbar-expand-md bg-body-tertiary sticky-top mb-4" data-bs-theme="light">
