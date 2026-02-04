@@ -38,3 +38,11 @@
         <li>Vastuuhenkilöt ja/tai pääjärjestäjät. Onko taustalla yritys tai yhdistys</li>
     </ul>
 </div>
+
+<div>Compocrew Compokone
+<ul>
+<li>AMD Ryzen 7 7800X3D 4.2 GHz</li>
+<li>64GB DDR5 6000MHz</li>
+<li>MSI GeForce RTX 4090 SUPRIM X 24G</li>
+</ul>
+</div>
