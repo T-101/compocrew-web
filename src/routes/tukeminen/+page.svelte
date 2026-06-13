@@ -38,7 +38,7 @@
 </TrackedLink>
 
 <TrackedLink track="UpCloud click" href="https://upcloud.com/">
-    <img class="sponsor-logo me-4" src="/img/upcloud.webp" alt="UpCloud logo"/>
+    <img class="sponsor-logo me-4" src="/img/upcloud2026.webp" alt="UpCloud logo"/>
 </TrackedLink>
 
 <hr class="my-4"/>
